@@ -8,7 +8,7 @@
     --beige-sand: #E4D6C4;
     --charcoal-black: #2E2E2E;
     --Rose-icon-color: #B97570;
-    --Off-white: ##F2EEEA;
+    --Off-white: #F2EEEA;
     --Dusty-rose-darker: #CF928E;
     --Lighter-charcoal: #696866;
     --beige-cream: #FFF3E3;
@@ -24,6 +24,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: var(--Body-font);
+    color: var(--charcoal-black);
 }
 
 .hero{
@@ -178,4 +179,50 @@ color: var(--beige-cream);
 opacity: 100%;
 gap: 8px;
 cursor: pointer;
+}
+
+
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    padding-top: 80px;
+    background-color: var(--Off-white);
+    gap: 20px;
+
+
+}
+#headline{ 
+    font-size: 50px;
+    font-family: var(--Hero-font);
+    font-weight: 100;
+    letter-spacing: 8%;
+    color: var(--charcoal-black);
+    margin-bottom: 0;
+}
+
+#every{
+    font-style: italic;
+    color: var(--Dusty-rose-darker);
+;
+
+}
+
+section hr{
+    width: 50px;
+    border: 1px solid var(--Dusty-rose-darker);
+    border-radius: 2px;
+    margin-bottom: 20px;   
+    margin-top: -5px;
+}
+
+
+#underline{
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 4%;
+    color: var(--charcoal-black);
 }
