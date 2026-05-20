@@ -1,11 +1,33 @@
+/* Farve-Variabler */
+:root {
+    --dusty-rose: #D8A9A6;
+    --sage-green: #A6B89F;
+    --lavender: #CBBAD1;
+    --taupe: #B6A89A;
+    --eggshell: #F2ECE6;
+    --beige-sand: #E4D6C4;
+    --charcoal-black: #2E2E2E;
+    --Rose-icon-color: #B97570;
+    --Off-white: ##F2EEEA;
+    --Dusty-rose-darker: #CF928E;
+    --Lighter-charcoal: #696866
+    --Beige-cream: #FFF3E3;
+
+    /* Typografi */
+    --Body-font: dm-sans, sans-serif;
+    --Hero-font: playfair-display, serif;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
-    font-family: dm-sans, sans-serif;
+    font-family: var(--Body-font);
 }
 
 .hero{
-    background-color: #ece8e3;
+    background-color: var(--eggshell);
     background-image: url(hero-section.img/ny-hero-dusty-rose.png);
     background-size: cover;
     background-position: center;
@@ -20,7 +42,7 @@ body{
     align-items:center;
     gap: 100px;
     padding:10px 90px;
-    background:#F2ECE6;
+    background:var(--eggshell);
     box-shadow: 0 4px 8px rgba(58, 56, 56, 0.1);
     border-radius: 5px;
     position: fixed;
@@ -53,8 +75,8 @@ body{
 }
 
 button{
-    background-color: #F2ECE6;
-    border: 1px solid #2E2E2E;
+    background-color: var(--eggshell);
+    border: 1px solid var(--charcoal-black);
     opacity: 60%;
     border-radius: 20px;
     padding: 10px 2px;
@@ -62,6 +84,22 @@ button{
     letter-spacing: 2%;
     width: 200px;
     font-weight: 100;
-    font-family: dm-sans, sans-serif;
+    font-family: var(--Body-font);
+}
 
+.hero h1 {
+    margin: 0;
+    padding-top: 190px;
+    font-family: var(--Body-font);
+    font-size: 60px;
+    font-weight: 100;
+    color: var(--charcoal-black); opacity: 75%;
+    padding-left: 100px;
+}
+
+#sound {
+font-family: var(--Hero-font);
+font-style: italic;
+font-weight: 100;;
+color: var(--Dusty-rose-darker);
 }
