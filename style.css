@@ -10,8 +10,8 @@
     --Rose-icon-color: #B97570;
     --Off-white: ##F2EEEA;
     --Dusty-rose-darker: #CF928E;
-    --Lighter-charcoal: #696866
-    --Beige-cream: #FFF3E3;
+    --Lighter-charcoal: #696866;
+    --beige-cream: #FFF3E3;
 
     /* Typografi */
     --Body-font: dm-sans, sans-serif;
@@ -33,6 +33,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+
 }
 
 
@@ -47,6 +48,9 @@ body{
     border-radius: 5px;
     position: fixed;
     width: 100%;
+    z-index: 1;
+
+
 }
 
 .logo img{
@@ -55,6 +59,7 @@ body{
     text-decoration:none;
     width: 85px;
     height: auto;
+    cursor: pointer;
 }
 .menu{
     display:flex;
@@ -85,7 +90,9 @@ button{
     width: 200px;
     font-weight: 100;
     font-family: var(--Body-font);
+    cursor: pointer;
 }
+
 
 .hero h1 {
     margin: 0;
@@ -104,6 +111,7 @@ font-style: italic;
 font-weight: 100;;
 color: var(--Dusty-rose-darker);
 letter-spacing: 2%;
+font-size: 70px;
 }
 
 .hero p{
@@ -130,4 +138,44 @@ font-weight:550;
 
 #world-of-features{
 font-weight:550;
+}
+
+#hero-cta{
+display: flex;
+background-color: var(--beige-cream);
+opacity: 90%;
+align-items: center;
+gap: 20px;
+width: fit-content;
+height: fit-content;
+padding: 20px 12px;
+padding-left: 20px;
+border: none;
+color: var(--Lighter-charcoal);
+font-weight: 550;
+margin-left: 135px;
+margin-top: 80px;
+border-radius: 25px;
+cursor: pointer;
+}
+
+#arrow-hero{
+    width: 25px;
+    height: auto;
+}
+
+#explore{
+display: flex;
+background-color: transparent;
+align-items: center;
+position: absolute;
+left: 50%;
+ transform:translateX(-50%);
+ bottom: 0px;
+flex-direction: column;
+border: none;
+color: var(--beige-cream);
+opacity: 100%;
+gap: 8px;
+cursor: pointer;
 }
