@@ -95,6 +95,7 @@ button{
     font-weight: 100;
     color: var(--charcoal-black); opacity: 75%;
     padding-left: 100px;
+    letter-spacing: 2%;
 }
 
 #sound {
@@ -102,4 +103,31 @@ font-family: var(--Hero-font);
 font-style: italic;
 font-weight: 100;;
 color: var(--Dusty-rose-darker);
+letter-spacing: 2%;
+}
+
+.hero p{
+    font-family: var(--Body-font);
+    font-size: 20px;
+    color: var(--charcoal-black); opacity: 75%;
+    padding-left: 100px;
+    letter-spacing: 5%;
+    line-height: 34px;
+    font-weight: 100;
+}
+#on-the-go{
+    font-style: italic;
+    font-family: var(--Hero-font);
+}
+
+#high-quality{
+font-weight:550;
+}
+
+#rich-sound{
+font-weight:550;
+}
+
+#world-of-features{
+font-weight:550;
 }
