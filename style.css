@@ -269,7 +269,7 @@ section hr{
 }
 
 
-.color-section{
+.color-text{
     background-color: var(--eggshell);
     display: flex;
     flex-direction: column;
@@ -283,13 +283,14 @@ h3{
     font-family: var(--Body-font);
     font-size: 16px;
     font-weight: 900;
+    letter-spacing: 4%;
 color: var(--Rose-icon-color);
 margin-top: 50px;
-margin-bottom: 30px;
+margin-bottom: 25px;
 }
 
 
-.color-section p{
+.color-text p{
     font-family: var(--Hero-font);
     font-size: 50px;
     color: var(--charcoal-black); 
@@ -319,3 +320,14 @@ margin-bottom: 30px;
     font-family: var(--Hero-font);
     font-size: 20px;
 }
+
+.color-profile{
+    position: relative;
+    width:1050px;
+    height:auto;
+    margin-top:-450px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
