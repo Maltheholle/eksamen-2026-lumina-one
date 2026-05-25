@@ -279,6 +279,7 @@ section hr{
     position: absolute;
     width:280px;
     margin-top: 90px;
+    margin-left: 50px;
 
 }
 
@@ -333,9 +334,10 @@ section hr{
 }
 
 .color-profile{
-    width:900px;
+    width:800px;
     height:auto;
-    margin-top:-40px;
+    margin-top: 90px;
+    margin-bottom: -10px;
     transform:translateX(35px);
 
 }
@@ -354,8 +356,8 @@ section hr{
 }
 
 .circle{
-    width:70px;
-    height:70px;
+    width:50px;
+    height:50px;
     border-radius:50%;
     border:none;
     cursor:pointer;
@@ -407,4 +409,26 @@ section hr{
     font-weight: 200;
     letter-spacing: 2%;
     color:var(--charcoal-black);
+}
+
+.purchase-button{
+    display: flex;
+    border-radius: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    color: var(--Dusty-rose-darker);
+    font-weight: 550;
+    background-color: transparent;
+    border: 2px solid var(--Dusty-rose-darker);
+    cursor: pointer;
+    opacity: 100%;
+    margin-top: 20px;
+
+}
+#dusty-shopping-icon{
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
 }
