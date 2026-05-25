@@ -353,6 +353,7 @@ section hr{
     display:flex;
     gap:25px;
     margin-bottom:45px;
+    position: relative;
 }
 
 .circle{
@@ -361,6 +362,15 @@ section hr{
     border-radius:50%;
     border:none;
     cursor:pointer;
+       transition:0.4s;
+}
+
+
+.active{
+    border:3px solid white;
+    box-shadow:0 0 0 1px #ddd;
+
+    transform: scale(1.12);
 }
 
 .circle{
@@ -379,10 +389,6 @@ section hr{
     background:var(--taupe);
 }
 
-.active{
-    border:5px solid white;
-    box-shadow:0 0 0 1px #ddd;
-}
 
 .color-picker hr{
     width:80px;
