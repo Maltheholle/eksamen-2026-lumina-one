@@ -278,7 +278,8 @@ section hr{
 .color-text{
     position: absolute;
     width:280px;
-    z-index:2;
+    margin-top: 90px;
+
 }
 
 .color-text h3,
@@ -332,7 +333,7 @@ section hr{
 }
 
 .color-profile{
-    width:950px;
+    width:900px;
     height:auto;
     margin-top:-40px;
     transform:translateX(35px);
