@@ -335,6 +335,8 @@ section hr{
     width:950px;
     height:auto;
     margin-top:-40px;
+    transform:translateX(35px);
+
 }
 
 .color-picker{
