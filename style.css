@@ -64,8 +64,8 @@ body{
 }
 .menu{
     display:flex;
-    gap:65px;
-    font-size: 17px;
+    gap:70px;
+    font-size: 15px;
     letter-spacing: 2%;
     list-style:none;
     margin:0;
@@ -331,3 +331,27 @@ margin-bottom: 25px;
 
 }
 
+
+.arrows
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1200px;
+
+
+}
+.changer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 204, 204);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: none;
+}
+
+#left-changer{
+    transform: scaleX(-1);
+}
