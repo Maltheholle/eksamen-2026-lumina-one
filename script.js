@@ -28,6 +28,7 @@ circles.forEach(circle => {
             speaker.src = "body.img/sage-green-profile-pic.svg";
 
         title.textContent = "SAGE GREEN";
+        title.style.color = "var(--sage-green)";
 
         description.innerHTML =
         `Nice, natural and <br>
@@ -40,6 +41,7 @@ circles.forEach(circle => {
             speaker.src = "body.img/lavender-profile-pic.svg";
 
             title.textContent = "LAVENDER";
+            title.style.color = "var(--lavender)";
 
         description.innerHTML =
         `Elegant, soft and <br>
@@ -53,6 +55,7 @@ circles.forEach(circle => {
 
 
              title.textContent = "WARM TAUPE";
+            title.style.color = "var(--taupe)";
 
         description.innerHTML =
         `Grounded, warm and <br>
@@ -62,7 +65,9 @@ circles.forEach(circle => {
         else{
 
             speaker.src = "body.img/dusty-rose-profile-pic.svg";
+            title.style.color = "var(--dusty-rose)";
 
+            
         description.innerHTML =
             `Warm, cozy and <br>
             perfect for the sunset.`;
