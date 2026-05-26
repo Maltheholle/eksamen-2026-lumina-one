@@ -236,7 +236,8 @@ section hr{
     font-family: var(--Body-font);
     padding:70px 50px;
     background-color:var(--Off-white);
-    
+    margin-bottom: 200px;
+    margin-top: 70px;
 }
 
 .feature-item{
@@ -253,20 +254,7 @@ section hr{
     margin-bottom:25px;
 }
 
-#feature-description{
-    margin-bottom: 0px;
-    font-size:15px;
-    letter-spacing: 8%;
-    color:var(--Dusty-rose-darker);
-}
 
-#abilities{
-    font-weight:450;
-    color: var(--charcoal-black); opacity: 75%;
-    line-height: 20px;
-    letter-spacing: 2%;
-    font-size: 14px;
-}
 .color-section{
     display:flex;
     align-items:flex-start;
