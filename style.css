@@ -219,13 +219,17 @@ section hr{
 }
 
 
-
-#underline{
-    margin-top: 0;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 4%;
-    color: var(--charcoal-black);
+/* Styres i js, kontrollerer designet af "overskriften */
+.feature-title-js{
+    display:block;
+    text-align: center;
+    margin-bottom:20px;
+    
+    font-size:35px;
+    font-weight:200;
+    letter-spacing:2px;
+    
+    color:var(--Rose-icon-color);
 }
 
 
@@ -237,22 +241,95 @@ section hr{
     padding:70px 50px;
     background-color:var(--Off-white);
     margin-bottom: 200px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
+
+
+
+
+/* styrer denne lille beskrivelse under */
+#underline{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 4%;
+    color: var(--charcoal-black);
+    min-height: 100px;
+    text-align: center;
+}
+
+/* styrer denne lille beskrivelse under */
+#underline{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 8%;
+    color: var(--charcoal-black);
+    min-height: 100px;
+    text-align: center;
+}
+
 
 .feature-item{
     display:flex;
     flex-direction:column;
     align-items:center;
-    text-align:center;
-    width: 160px;
-    margin-left: 30px;
+    justify-content:flex-start;
+
+    width:160px;
+    min-height:240px;
+
+    margin-left:30px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.feature-item:hover{
+    transform:translateY(-12px);
+}
+
+.feature-item:hover img{
+
+    background-color:rgba(207,146,142,0.12);
+
+    border-radius:50%;
+
+    transform:scale(1);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.08);
+
 }
 
 .feature-item img{
+    width:110px;
     height:110px;
-    margin-bottom:25px;
+    padding:35px;
+    border-radius:50%;
+
+
+     transition:
+    transform 0.35s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
+
+.active-feature img{
+    background-color:rgba(0,0,0,0.045);
+}
+
+.active-feature::after{
+    content:"";
+
+    width:18px;
+    height:18px;
+
+    border-radius:50%;
+    background-color:var(--Dusty-rose-darker);
+
+    margin-top:25px;
+}
+
 
 
 .color-section{

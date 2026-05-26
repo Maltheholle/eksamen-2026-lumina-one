@@ -91,3 +91,130 @@ circles.forEach(circle => {
     });
 
 });
+
+
+
+
+const featureItems = document.querySelectorAll(".feature-item");
+
+const underline = document.querySelector("#underline");
+
+
+
+featureItems.forEach((item,index)=>{
+
+item.addEventListener("click",()=>{
+
+
+// Hvis man klikker på det aktive ikon igen
+if(item.classList.contains("active-feature")){
+
+item.classList.remove("active-feature");
+
+underline.textContent =
+"Everything you need, in one speaker.";
+
+return;
+
+}
+
+
+// fjern aktiv klasse fra alle
+featureItems.forEach(feature=>{
+
+feature.classList.remove("active-feature");
+
+});
+
+
+// gør valgt ikon aktivt
+item.classList.add("active-feature");
+
+
+
+if(index===0){
+
+underline.innerHTML=
+`
+<span class="feature-title-js">
+RICH SOUND
+</span>
+
+Powerful sound in a compact size.
+`;
+
+}
+
+
+if(index===1){
+
+underline.innerHTML=
+`
+<span class="feature-title-js">
+LASTING BATTERY
+</span>
+
+Up to 20 hours of playtime.
+`;
+
+}
+
+
+if(index===2){
+
+underline.innerHTML=
+`
+<span class="feature-title-js">
+SPLASH PROOF
+</span>
+
+Made for anytime, anywhere.
+`;
+
+}
+
+
+if(index===3){
+
+underline.innerHTML=
+`
+<span class="feature-title-js">
+AMBIENT LIGHT
+</span>
+
+Set the mood with beautiful lighting.
+`;
+
+}
+
+
+if(index===4){
+
+underline.innerHTML=
+`
+<span class="feature-title-js">
+BLUETOOTH 5.3
+</span>
+
+Smooth connection everytime.
+`;
+
+}
+
+
+if(index===5){
+
+underline.innerHTML=
+`
+<span class="feature-title-js">
+LUMINA PARTY
+</span>
+
+Connect with multiple friends.
+`;
+
+}
+
+});
+
+});
