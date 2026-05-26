@@ -109,6 +109,11 @@ entry.target.classList.add("show");
 
 }
 
+else{
+
+entry.target.classList.remove("show");
+}
+
 });
 
 },
@@ -222,6 +227,7 @@ Smooth connection everytime.
 `;
 
 }
+
 
 if(index===5){
 
