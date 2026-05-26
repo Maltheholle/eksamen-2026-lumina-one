@@ -99,7 +99,32 @@ const featureItems = document.querySelectorAll(".feature-item");
 
 const underline = document.querySelector("#underline");
 
+const observer = new IntersectionObserver((entries)=>{
 
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+},
+{
+threshold:0.3
+});
+
+
+featureItems.forEach(item=>{
+
+observer.observe(item);
+
+});
+
+
+// Delen med aktivering af features og ændring af tekst under ikonerne
 
 featureItems.forEach((item,index)=>{
 
@@ -117,9 +142,7 @@ underline.textContent =
 return;
 
 }
-
-
-// fjern aktiv klasse fra alle
+// fjern aktiv-funktion
 featureItems.forEach(feature=>{
 
 feature.classList.remove("active-feature");
@@ -127,7 +150,7 @@ feature.classList.remove("active-feature");
 });
 
 
-// gør valgt ikon aktivt
+// gør valgt ikon aktiv endnu en gang
 item.classList.add("active-feature");
 
 
@@ -187,7 +210,6 @@ Set the mood with beautiful lighting.
 
 }
 
-
 if(index===4){
 
 underline.innerHTML=
@@ -200,7 +222,6 @@ Smooth connection everytime.
 `;
 
 }
-
 
 if(index===5){
 
