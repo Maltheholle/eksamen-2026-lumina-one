@@ -435,7 +435,11 @@ section hr{
     margin-top: 90px;
     margin-bottom: -10px;
     transform:translateX(35px);
+    transition: opacity 0.4s ease-in;
 
+}
+.fade-out{
+    opacity:0;
 }
 
 .color-picker{

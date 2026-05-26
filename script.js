@@ -11,6 +11,15 @@ const description = document.querySelector("#color-description");
 const ctaButton = document.querySelector(".purchase-button");
 const ctaIcon =document.querySelector("#shopping-icon");
 
+function changeSpeakerImage(newImage){
+    speaker.classList.add("fade-out");
+
+    setTimeout(() => {
+        speaker.src = newImage;
+        speaker.classList.remove("fade-out");
+    }, 320);
+}
+
 circles.forEach(circle => {
 
     circle.addEventListener("click", () => {
@@ -27,7 +36,7 @@ circles.forEach(circle => {
 
         if(circle.classList.contains("sage")){
 
-            speaker.src = "body.img/sage-green-profile-pic.svg";
+        changeSpeakerImage("body.img/sage-green-profile-pic.svg");
 
         title.textContent = "SAGE GREEN";
         title.style.color = "var(--sage-green)";
@@ -43,7 +52,7 @@ circles.forEach(circle => {
 
         else if(circle.classList.contains("lavender")){
 
-            speaker.src = "body.img/lavender-profile-pic.svg";
+            changeSpeakerImage("body.img/lavender-profile-pic.svg");
 
             title.textContent = "LAVENDER";
             title.style.color = "var(--lavender)";
@@ -59,7 +68,7 @@ circles.forEach(circle => {
 
         else if(circle.classList.contains("taupe")){
 
-            speaker.src = "body.img/warm-taupe-profile-pic.svg";
+            changeSpeakerImage("body.img/warm-taupe-profile-pic.svg");
 
 
              title.textContent = "WARM TAUPE";
@@ -75,7 +84,7 @@ circles.forEach(circle => {
 
         else{
 
-            speaker.src = "body.img/dusty-rose-profile-pic.svg";
+            changeSpeakerImage("body.img/dusty-rose-profile-pic.svg");
             title.style.color = "var(--dusty-rose)";
             ctaButton.style.color = "var(--dusty-rose)";
             ctaButton.style.border = "2px solid var(--dusty-rose)";
@@ -99,6 +108,8 @@ const featureItems = document.querySelectorAll(".feature-item");
 
 const underline = document.querySelector("#underline");
 
+
+// her bygges animationen til ikonerne
 const observer = new IntersectionObserver((entries)=>{
 
 entries.forEach(entry=>{
