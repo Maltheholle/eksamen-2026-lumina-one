@@ -241,7 +241,8 @@ section hr{
     padding:70px 50px;
     background-color:var(--Off-white);
     margin-bottom: 20px;
-    margin-top: -20px
+    margin-top: -20px;
+
 }
 
 
@@ -441,6 +442,36 @@ section hr{
 .fade-out{
     opacity:0;
 }
+
+.fold-out{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 90px;
+    margin-top: -50px;
+    width: fit-content;
+    border-radius: 10px;
+    border-color: var(--Rose-icon-color);
+    padding: 20px 20px;
+    letter-spacing: 4%;
+    color: var(--Rose-icon-color);
+    opacity: 100%;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#arrow-down{
+    width: 20px;
+    height: auto;
+}
+
+
+
+
+
+
 
 .color-picker{
     display:flex;
