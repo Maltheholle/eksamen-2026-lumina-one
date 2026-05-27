@@ -551,9 +551,6 @@ section hr{
     gap: 20px;
     font-family: var(--Body-font);
     width: 300px;
-
-
-
 }
 
 .spec-item img{
@@ -614,6 +611,34 @@ margin-right: -10px;
     transform:rotate(180deg);
 }
 
+
+.specs-list{
+    position:relative;
+}
+
+.vertical-line{
+    position:absolute;
+
+    width:1px;
+    height:350px;
+
+    border:none;
+    background-color:rgba(185,117,112,0.15);
+
+    margin:0;
+}
+
+.first-line{
+    left: 22%;
+}
+
+.second-line{
+    left:33%;
+}
+
+.third-line{
+    left:66%;
+}
 
 
 
