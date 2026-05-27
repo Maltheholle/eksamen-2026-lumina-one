@@ -27,6 +27,10 @@ body{
     color: var(--charcoal-black);
     background-color: var(--Off-white);
 
+
+
+
+
 }
 
 .hero{
@@ -185,6 +189,9 @@ cursor: pointer;
 
 .content-wrapper{
     position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
 }
 
 
@@ -200,15 +207,18 @@ cursor: pointer;
 }
 
 .circle-left,
-.circle-right{
-    position: absolute;
+.circle-right,
+.circle-on-txt,
+.circle-left-2{
+
+ position: absolute;
     z-index: 0;
     border-radius: 50%;
     background-color: #E5E0DA;
-     width: 600px;
-    height: 600px;
+     width: 550px;
+    height: 550px;
     right: -350px;
-    top: 600px;
+    top: 560px;
     z-index: 1;
 }
 
@@ -220,10 +230,35 @@ cursor: pointer;
 }
 
 
+.circle-on-txt{
+      position:absolute;
 
-.features > *:not(.circle-left):not(.circle-right){
+   width:700px;
+   height:700px;
+
+    border-radius: 0 30% 50% 0;
+    background-color:#E5E0DA;
+
+    left:-420px;
+    top:-170px;
+
+}
+
+.circle-left-2{
+    width: 500px;
+    height: 500px;
+    top: 90%;
+    right: -230px;
+}
+
+
+.features > *:not(.circle-left):not(.circle-right):not(.circle-left-2) {
     position: relative;
-    z-index: 1;
+    z-index: 2;
+}
+.color-text > *:not(.circle-on-txt){
+    position:relative;
+    z-index:1;
 }
 
 #headline{ 
@@ -403,6 +438,7 @@ section hr{
     padding:80px;
     min-height:850px;
     margin-top: 90px;
+    
 }
 
 .color-text{
@@ -433,6 +469,7 @@ section hr{
     color:var(--charcoal-black);
     font-weight:100;
     margin-bottom:30px;
+
 }
 
 #color{
