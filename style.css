@@ -538,30 +538,43 @@ section hr{
 
 }
 
+.spec-row{
+    display:flex;
+    gap:60px;
+    margin-top: 30px;
+}
+
+
 .spec-item{
     display:flex;
     align-items:flex-start;
     gap: 25px;
     font-family: var(--Body-font);
-    margin-top: -30px;
+    width: 360px;
+
 
 }
-
 
 .spec-item img{
     width:55px;
     height: 55px;
     object-fit: contain;
     margin-top: 20px;
+    flex-shrink: 0;
 }
 
-.spec-item #first-spec-line{
+.bulb-icon{
+transform:translateX(-10px);
+margin-right: -10px;
+}
+
+.spec-item .first-spec-line{
     font-size:16px;
     letter-spacing:2px;
     white-space: nowrap;
 }
 
-.spec-item #second-spec-line{
+.spec-item .second-spec-line{
     margin:0;
     font-size:12px;
     line-height:1.5;
