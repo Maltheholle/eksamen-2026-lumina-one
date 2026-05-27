@@ -256,3 +256,13 @@ Connect with multiple friends.
 });
 
 });
+
+
+
+const foldButton = document.querySelector(".fold-out");
+const specsPanel = document.querySelector(".specs-panel");
+
+foldButton.addEventListener("click", () => {
+    specsPanel.classList.toggle("open");
+    foldButton.classList.toggle("open");
+});

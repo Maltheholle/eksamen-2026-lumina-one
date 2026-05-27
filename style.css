@@ -448,8 +448,8 @@ section hr{
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    margin-bottom: 90px;
-    margin-top: -50px;
+    margin-bottom: 20px;
+    margin-top: -90px;
     width: fit-content;
     border-radius: 10px;
     border-color: var(--Rose-icon-color);
@@ -467,7 +467,114 @@ section hr{
     height: auto;
 }
 
+.specs-panel{
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
 
+    width:80%;
+    background-color:var(--eggshell);
+    border-radius:20px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.12);
+
+    transition:
+    max-height 0.7s ease,
+    opacity 0.4s ease,
+    padding 0.4s ease;
+}
+
+.specs-panel.open{
+    max-height:700px;
+    opacity:1;
+    padding:50px;
+}
+
+.specs-panel{
+    position:relative;
+}
+
+.close-specs{
+    position:absolute;
+    top:15px;
+    right:30px;
+
+    width:auto;
+    border:none;
+    background:transparent;
+    color:var(--Rose-icon-color);
+    font-size:25px;
+    opacity:1;
+   
+}
+
+.close-specs:hover{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: scale(1.6);
+    opacity:1;
+}
+.specs-title{
+    margin:0 0 40px;
+    font-size:18px;
+    letter-spacing:2px;
+    font-weight:400;
+}
+
+.specs-speaker{
+    width:350px;
+    height: auto;
+    float:left;
+    margin-right:20px;
+    margin-left: -50px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+
+}
+
+.specs-list{
+    display:flex;
+    flex-direction:row;
+    gap: 45px;
+
+
+}
+
+.spec-item{
+    display:flex;
+    align-items:flex-start;
+    gap: 25px;
+    font-family: var(--Body-font);
+    margin-top: -30px;
+
+}
+
+
+.spec-item img{
+    width:55px;
+    height: 55px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+.spec-item #first-spec-line{
+    font-size:16px;
+    letter-spacing:2px;
+    white-space: nowrap;
+}
+
+.spec-item #second-spec-line{
+    margin:0;
+    font-size:12px;
+    line-height:1.5;
+    font-weight: 100;
+    letter-spacing: 4%;
+}
+.fold-out.open #arrow-down{
+    transform:rotate(180deg);
+}
+
+#arrow-down{
+    transition:0.3s;
+}
 
 
 
