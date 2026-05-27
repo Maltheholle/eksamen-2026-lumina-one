@@ -260,9 +260,18 @@ Connect with multiple friends.
 
 
 const foldButton = document.querySelector(".fold-out");
+const closeButton = document.querySelector(".close-specs");
 const specsPanel = document.querySelector(".specs-panel");
+
 
 foldButton.addEventListener("click", () => {
     specsPanel.classList.toggle("open");
     foldButton.classList.toggle("open");
+});
+
+closeButton.addEventListener("click", () => {
+    
+    specsPanel.classList.remove("open");
+    foldButton.classList.remove("open");
+
 });
