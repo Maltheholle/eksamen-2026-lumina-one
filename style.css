@@ -25,6 +25,7 @@ body{
     padding: 0;
     font-family: var(--Body-font);
     color: var(--charcoal-black);
+    background-color: var(--Off-white);
 
 }
 
@@ -401,6 +402,7 @@ section hr{
     background-color:var(--eggshell);
     padding:80px;
     min-height:850px;
+    margin-top: 90px;
 }
 
 .color-text{
