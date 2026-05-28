@@ -27,11 +27,6 @@ body{
     font-family: var(--Body-font);
     color: var(--charcoal-black);
     background-color: var(--Off-white);
-
-
-
-
-
 }
 
 .hero{
@@ -41,7 +36,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-
 }
 
 
@@ -76,7 +70,7 @@ body{
 .menu{
     display:flex;
     gap:60px;
-    letter-spacing: 2%;
+    letter-spacing: 0.05em;
     list-style:none;
     margin:0;
     padding:0;
@@ -107,7 +101,7 @@ button{
     border-radius: 20px;
     padding: 10px 2px;
     font-size: 17px;
-    letter-spacing: 2%;
+    letter-spacing: 0.05em;
     width: 200px;
     font-weight: 100;
     font-family: var(--Body-font);
@@ -131,7 +125,7 @@ button{
     font-weight: 100;
     color: var(--charcoal-black); opacity: 75%;
     padding-left: 100px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 #sound {
@@ -139,7 +133,7 @@ font-family: var(--Hero-font);
 font-style: italic;
 font-weight: 100;;
 color: var(--Dusty-rose-darker);
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 font-size: 70px;
 }
 
@@ -148,7 +142,7 @@ font-size: 70px;
     font-size: 20px;
     color: var(--charcoal-black); opacity: 75%;
     padding-left: 100px;
-    letter-spacing: 5%;
+    letter-spacing: 0.02em;
     line-height: 34px;
     font-weight: 100;
 }
@@ -227,7 +221,6 @@ transition: all 0.3s ease;
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
-    
 }
 
 
@@ -277,7 +270,6 @@ transition: all 0.3s ease;
 
     left:-420px;
     top:-170px;
-
 }
 
 .circle-left-2{
@@ -301,7 +293,7 @@ transition: all 0.3s ease;
     font-size: 50px;
     font-family: var(--Hero-font);
     font-weight: 100;
-    letter-spacing: 8%;
+    letter-spacing: 0.05em;
     color: var(--charcoal-black);
     margin-bottom: 0;
 }
@@ -309,8 +301,6 @@ transition: all 0.3s ease;
 #every{
     font-style: italic;
     color: var(--Dusty-rose-darker);
-;
-
 }
 
 section hr{
@@ -321,17 +311,14 @@ section hr{
     margin-top: -5px;
 }
 
-
 /* Styres i js, kontrollerer designet af "overskriften */
 .feature-title-js{
     display:block;
     text-align: center;
-    margin-bottom:20px;
-    
+    margin-bottom:20px;  
     font-size:35px;
     font-weight:200;
     letter-spacing:2px;
-    
     color:var(--Rose-icon-color);
 }
 
@@ -345,7 +332,6 @@ section hr{
     background-color: transparent;
     margin-bottom: 20px;
     margin-top: -20px;
-
 }
 
 
@@ -356,7 +342,7 @@ section hr{
     margin-top: 0;
     font-size: 20px;
     font-weight: 100;
-    letter-spacing: 8%;
+    letter-spacing: 0.02em;
     color: var(--charcoal-black);
     min-height: 100px;
     text-align: center;
@@ -368,13 +354,10 @@ section hr{
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
-
     width:160px;
     min-height:240px;
-
     margin-left:30px;
     cursor:pointer;
-    
     opacity:0;
     transform:translateY(100px)
     scale(0.7);
@@ -426,11 +409,8 @@ section hr{
 .feature-item:hover img{
 
     background-color:rgba(207,146,142,0.12);
-
     border-radius:50%;
-
     transform:scale(1);
-
     box-shadow:
     0 10px 25px rgba(0,0,0,0.08);
 
@@ -441,9 +421,7 @@ section hr{
     height:110px;
     padding:35px;
     border-radius:50%;
-
-
-     transition:
+    transition:
     transform 0.35s ease,
     background-color 0.2s ease,
     box-shadow 0.2s ease;
@@ -455,13 +433,10 @@ section hr{
 
 .active-feature::after{
     content:"";
-
     width:18px;
     height:18px;
-
     border-radius:50%;
     background-color:var(--Dusty-rose-darker);
-
     margin-top:25px;
 }
 
@@ -494,9 +469,9 @@ section hr{
     font-family:var(--Body-font);
     font-size:16px;
     font-weight:900;
-    letter-spacing:4%;
+    letter-spacing: 0.02em;
     color:var(--Rose-icon-color);
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
 
 .color-text p{
@@ -516,7 +491,7 @@ section hr{
 #second-line{
     font-size:18px;
     font-weight:550;
-    letter-spacing:6%;
+    letter-spacing:0.04em;
     line-height:35px;
     color:var(--charcoal-black);
     font-family:var(--Body-font);
@@ -560,7 +535,7 @@ section hr{
     border-radius: 10px;
     border-color: var(--Rose-icon-color);
     padding: 20px 20px;
-    letter-spacing: 4%;
+    letter-spacing: 0.02em;
     color: var(--Rose-icon-color);
     opacity: 100%;
     background-color: transparent;
@@ -709,7 +684,7 @@ margin-right: -10px;
     font-size:12px;
     line-height:1.6;
     font-weight: 100;
-    letter-spacing: 4%;
+    letter-spacing: 0.02em;
     max-width: 260px;
 }
 
@@ -719,7 +694,7 @@ margin-right: -10px;
     font-size:12px;
     line-height:1.6;
     font-weight: 100;
-    letter-spacing: 4%;
+    letter-spacing: 0.02em;
 }
 
 
@@ -831,7 +806,7 @@ margin-right: -10px;
     font-size:16px;
     font-family:var(--Body-font);
     font-weight: 200;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color:var(--charcoal-black);
 }
 
@@ -850,7 +825,7 @@ margin-right: -10px;
     opacity: 100%;
     margin-top: 20px;
     transition:all 0.3s ease;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
 }
 
 .purchase-button:hover{
@@ -879,7 +854,7 @@ margin-right: -10px;
     font-size: 40px;
     color: var(--charcoal-black);
     font-weight: 100;
-    letter-spacing: 4%;
+    letter-spacing: 0.06em;
     text-align: center;
     margin-top: 0;
     padding-top: 35px;
@@ -895,7 +870,7 @@ margin-right: -10px;
     font-size: 20px;
     color: var(--charcoal-black);
     font-weight: 400;
-    letter-spacing: 4%;
+    letter-spacing: 0.06em;
     text-align: center;
     margin-bottom: 70px;
     margin-top: 30px;
