@@ -305,3 +305,30 @@ const distance = firstClone.offsetLeft;
 
 // Denne snakker sammen med css'en
 scroller.style.setProperty("--scroll-distance", `${distance}px`);
+
+// insta-section slutter
+
+
+
+// Review slider
+const reviewTrack = document.querySelector(".review-track");
+
+if(reviewTrack){
+
+    const reviewCards = [...reviewTrack.children];
+
+    reviewCards.forEach(card => {
+        reviewTrack.appendChild(card.cloneNode(true));
+    });
+
+    const firstReviewClone = reviewTrack.children[reviewCards.length];
+
+    const reviewDistance = firstReviewClone.offsetLeft;
+
+    reviewTrack.style.setProperty(
+        "--scroll-distance",
+        `${reviewDistance}px`
+    );
+
+}
+// Trustpilot slider slutter
