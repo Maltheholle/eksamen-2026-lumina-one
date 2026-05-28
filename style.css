@@ -169,7 +169,7 @@ transition: all 0.3s ease;
 }
 
 #hero-cta:hover{
-    background-color: var(--dusty-rose);
+    background-color: var(--Rose-icon-color);
     color: white;
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(0,0,0,0.12);
@@ -833,7 +833,7 @@ margin-right: -10px;
 }
 
 .purchase-button:hover{
-    color:white;
+
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(0,0,0,0.12);
 }
