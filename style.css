@@ -165,6 +165,14 @@ margin-left: 135px;
 margin-top: 80px;
 border-radius: 25px;
 cursor: pointer;
+transition: all 0.3s ease;
+}
+
+#hero-cta:hover{
+    background-color: var(--dusty-rose);
+    color: white;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.12);
 }
 
 #arrow-hero{
@@ -183,9 +191,15 @@ left: 50%;
 flex-direction: column;
 border: none;
 color: var(--beige-cream);
-
+opacity: 100%;
 gap: 8px;
 cursor: pointer;
+transition: all 0.3s ease;
+}
+
+#explore:hover{
+    color: var(--beige-cream);
+    transform:translateY(-5px) translateX(-50%);
 }
 
 .content-wrapper{
@@ -531,6 +545,14 @@ section hr{
     background-color: transparent;
     font-weight: 400;
     font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.fold-out:hover{
+    background-color:var(--dusty-rose);
+    color:white;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.12);
 }
 
 #arrow-down{
@@ -795,23 +817,32 @@ margin-right: -10px;
 .purchase-button{
     display: flex;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 60px;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     width: fit-content;
-    color: var(--Dusty-rose-darker);
-    font-weight: 550;
+    color: var(--Rose-icon-color);
+    font-weight: 400;
     background-color: transparent;
-    border: 2px solid var(--Dusty-rose-darker);
+    border: 2px solid var(--Rose-icon-color);
     cursor: pointer;
     opacity: 100%;
     margin-top: 20px;
-
+    transition:all 0.3s ease;
+    letter-spacing: 4%;
 }
+
+.purchase-button:hover{
+    color:white;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.12);
+}
+ 
+ 
+
 #shopping-icon{
     width: 25px;
     height: auto;
-    margin-right: 10px;
 }
 
 .moments{
@@ -906,6 +937,14 @@ margin-right: -10px;
     margin-left: auto;
     margin-right: auto;
     opacity: 100%;
+    transition:all 0.3s ease;
+}
+
+.follow-btn:hover{
+    background-color:var(--dusty-rose);
+    color:white;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.12);
 }
 
 .trust-pilot-section{

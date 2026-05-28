@@ -85,6 +85,7 @@ circles.forEach(circle => {
         else{
 
             changeSpeakerImage("body.img/dusty-rose-profile-pic.svg");
+            title.textContent = "DUSTY ROSE";
             title.style.color = "var(--dusty-rose)";
             ctaButton.style.color = "var(--dusty-rose)";
             ctaButton.style.border = "2px solid var(--dusty-rose)";
@@ -109,7 +110,7 @@ const featureItems = document.querySelectorAll(".feature-item");
 const underline = document.querySelector("#underline");
 
 
-// her bygges animationen til ikonerne
+// her bygges animationen til ikonerne - til feature-sections 
 const observer = new IntersectionObserver((entries)=>{
 
 entries.forEach(entry=>{
