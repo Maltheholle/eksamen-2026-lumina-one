@@ -275,3 +275,33 @@ closeButton.addEventListener("click", () => {
     foldButton.classList.remove("open");
 
 });
+
+
+
+
+// Scroller section til insta-billederne.
+const scroller = document.querySelector(".insta-scroller");
+
+
+const cards = [...scroller.children];
+
+
+cards.forEach(card => {
+
+
+   //* cloneNode til at lave kopier af cards - så den scroller "uendeligt
+   // og appendChild sætter det ind i slutningen"
+
+
+   scroller.appendChild(card.cloneNode(true));
+});
+
+
+const firstClone = scroller.children[cards.length];
+
+
+const distance = firstClone.offsetLeft;
+
+
+// Denne snakker sammen med css'en
+scroller.style.setProperty("--scroll-distance", `${distance}px`);
