@@ -42,7 +42,7 @@ circles.forEach(circle => {
         title.style.color = "var(--sage-green)";
         ctaButton.style.color = "var(--sage-green)";
         ctaButton.style.border = "2px solid var(--sage-green)";
-        ctaIcon.src = "body.img/shopping-bag-icon-sage.svg";
+        ctaIcon.src = "icons.img/shopping-bag-icon-sage.svg";
 
         description.innerHTML =
         `Nice, natural and <br>
@@ -58,7 +58,7 @@ circles.forEach(circle => {
             title.style.color = "var(--lavender)";
             ctaButton.style.color = "var(--lavender)";
             ctaButton.style.border = "2px solid var(--lavender)";
-            ctaIcon.src = "body.img/shopping-bag-icon-lavender.svg";
+            ctaIcon.src = "icons.img/shopping-bag-icon-lavender.svg";
 
         description.innerHTML =
         `Elegant, soft and <br>
@@ -75,7 +75,7 @@ circles.forEach(circle => {
             title.style.color = "var(--taupe)";
             ctaButton.style.color = "var(--taupe)";
             ctaButton.style.border = "2px solid var(--taupe)";
-            ctaIcon.src = "body.img/shopping-bag-icon-taupe.svg";
+            ctaIcon.src = "icons.img/shopping-bag-icon-taupe.svg";
 
         description.innerHTML =
         `Grounded, warm and <br>
@@ -89,7 +89,7 @@ circles.forEach(circle => {
             title.style.color = "var(--dusty-rose)";
             ctaButton.style.color = "var(--dusty-rose)";
             ctaButton.style.border = "2px solid var(--dusty-rose)";
-            ctaIcon.src = "body.img/shopping-bag-icon-dusty.svg";
+            ctaIcon.src = "icons.img/shopping-bag-icon-dusty.svg";
 
 
         description.innerHTML =
