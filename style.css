@@ -1066,3 +1066,266 @@ margin-right: -10px;
     bottom: 100px;
     z-index:0;
 }
+
+
+/* første halvdel footer begynder */
+.footer{
+    position:relative;
+    overflow:hidden;
+
+    display:flex;
+    align-items:flex-start;
+
+    padding:90px;
+    padding-bottom: 0px;
+    background-color:var(--dusted-white);
+}
+
+.footer::before{
+    content:"";
+
+    position:absolute;
+
+    width:650px;
+    height:650px;
+
+    border-radius:50%;
+    background:#E5E0DA;
+
+    right:-320px;
+    top:-150px;
+
+    z-index:0;
+}
+
+.footer > *{
+    position:relative;
+    z-index:1;
+}
+
+.footer-left{
+    display:flex;
+    flex-direction:column;
+    min-height:320px;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width:160px;
+}
+
+.footer-socials{
+    display:flex;
+    gap:35px;
+    cursor: pointer;
+}
+
+.footer-socials img{
+    width:45px;
+    transition:0.3s;
+}
+
+.footer-socials img:hover{
+    transform:translateY(-3px);
+}
+
+.footer-links{
+    display:flex;
+    gap:75px;
+    margin-left:80px;
+}
+
+.footer-links ul{
+    list-style:none;
+    padding:0;
+    margin-left: -30px;
+    width: 130px;
+}
+
+.footer-heading{
+    margin-bottom:20px;
+    color:var(--Rose-icon-color);
+    font-size:25px;
+    font-weight:550;
+    letter-spacing:2px;
+}
+
+.footer-links li{
+    margin-bottom:20px;
+    font-size: 14px;
+}
+
+.footer-content{
+
+    color:var(--charcoal-black);
+    transition:0.3s;
+    cursor: pointer;
+}
+
+.footer-content:hover{
+    color:var(--Rose-icon-color);
+}
+
+.footer-speaker{
+    width:700px;
+    margin-top: 40px;
+    margin-bottom: -100px;
+    padding-right: 100px;
+    margin-left: -200px;
+
+}
+
+/* Css til anden halvdel af footer (mail-del) osv */
+.footer-bottom{
+    background-color:var(--eggshell);
+    padding:50px 55px 15px;
+}
+
+/* Newsletter */
+.newsletter{
+    display:flex;
+    align-items:center;
+    gap:35px;
+}
+
+.newsletter-icon{
+    width:120px;
+    height:120px;
+    border:1.5px solid var(--Rose-icon-color);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+}
+
+.newsletter-icon img{
+    width:60px;
+}
+
+.newsletter article{
+    margin-bottom:15px;
+    font-size:18px;
+    font-weight:550;
+    letter-spacing:2px;
+    color:var(--Rose-icon-color);
+}
+
+.newsletter p{
+    margin:0;
+    font-size:14px;
+    line-height:28px;
+    font-weight:400;
+}
+
+.newsletter form{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    width:600px;
+    height:60px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.newsletter input{
+    flex:1;
+    height:100%;
+    border:none;
+    padding-left:25px;
+    font-family:var(--Body-font);
+    font-size:16px;
+    letter-spacing:1px;
+    outline:none;
+}
+
+.newsletter button{
+    width:180px;
+    height:60px;
+    border:none;
+    border-radius:30px;
+    background-color:var(--Rose-icon-color);
+    color:white;
+    opacity:1;
+    font-family:var(--Body-font);
+    font-size:16px;
+    font-weight:550;
+    letter-spacing:1px;
+    cursor:pointer;
+}
+
+/* Linjer */
+.footer-bottom hr{
+    width:100%;
+    height:1px;
+    border:none;
+    background-color:var(--Rose-icon-color);
+    opacity:0.7;
+    margin:40px 0 25px;
+}
+
+
+.footer-benefits{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.footer-benefits article{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:0 30px;
+    min-height:70px;
+
+    border-right:1px solid rgba(185,117,112,0.55);
+}
+
+.footer-benefits article:last-child{
+    border-right:none;
+}
+
+.footer-benefits img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+}
+
+.footer-benefits p{
+    margin:0;
+    font-size:13px;
+    line-height:22px;
+}
+
+.footer-benefits .value-point{
+    font-size:15px;
+    font-weight:550;
+    letter-spacing:0.5px;
+}
+
+.footer-copy{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-copy p{
+    margin:0;
+    color:var(--Rose-icon-color);
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.payment-icons{
+    position:absolute;
+    right:15px;
+    display:flex;
+    gap:14px;
+}
+
+.payment-icons img{
+    height:28px;
+    width:auto;
+}
