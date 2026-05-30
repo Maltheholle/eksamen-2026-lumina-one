@@ -11,6 +11,16 @@ const description = document.querySelector("#color-description");
 const ctaButton = document.querySelector(".purchase-button");
 const ctaIcon =document.querySelector("#shopping-icon");
 
+const purchaseText = document.querySelector("#purchase-text");
+
+ctaButton.addEventListener("mouseenter", () => {
+    purchaseText.textContent = "Add to basket 1499,-";
+});
+
+ctaButton.addEventListener("mouseleave", () => {
+    purchaseText.textContent = "Purchase Now";
+});
+
 function changeSpeakerImage(newImage){
     speaker.classList.add("fade-out");
 
@@ -101,6 +111,10 @@ circles.forEach(circle => {
     });
 
 });
+
+
+
+
 
 
 

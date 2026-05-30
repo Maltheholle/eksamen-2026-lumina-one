@@ -819,11 +819,16 @@ margin-right: -10px;
 }
 
 .purchase-button:hover{
-
+    background-color: currentColor;
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(0,0,0,0.12);
 }
- 
+.purchase-button:hover #purchase-text{
+    color: var(--dusted-white);
+}
+.purchase-button:hover #shopping-icon{
+    filter: brightness(0) invert(1);
+}
  
 
 #shopping-icon{
