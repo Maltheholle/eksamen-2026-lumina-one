@@ -12,18 +12,20 @@ Projektet består af et redesign af landingpagen for LUMINA One med fokus på fo
 ### Fil- og mappestruktur:
 For mere overskuelig image-struktur, har jeg valgt at dele mapperne op i forskellige mapper hhv. body.img, hero-section.img, icons.img og trust-pilot-cards.img
 
-![Mappestruktur.](/readme.img/mappestruktur1 "Mappestruktur.")
+![Mappestruktur.](/readme.img/mappestruktur1.png "Mappestruktur.")
+![Mappestruktur.](/readme.img/mappestruktur2.png "Mappestruktur.")
+
 
 
 ### Validering af CSS:
-![CSS-validation.](/readme.img/css-validator "CSS-Validation.")
+![CSS-validation.](/readme.img/css-validator.png "CSS-Validation.")
 
 Her var en række ensartede fejl, som gik på at der var brugt letter-spacing med % i stedet for px, eller rem osv. Så det er rettet.
 Siden er valideret med w3schools css-validator
 
 
 ### Validering af HTML:
-![HTML-validation.](/readme.img/html-validation "HTML-Validation.")
+![HTML-validation.](/readme.img/html-validation.png "HTML-Validation.")
 Her var de eneste errors, at der få steder ikke var en "alt" beskrivelse til img-tags. På billedet er der søgt på siden efter ordet "error" så det er tydeligt, at der ikke gemmer sig nogle længere nede.
 
 ### JavaScript datastruktur:
@@ -39,7 +41,7 @@ Datastrukturen passer godt til projektet, da løsningen bygger på manipulation 
 Her vises koden til funktionen, med skift af billede og farve.
 Beskrevet via comments i VS Code
 
-![JS beskrivelse.](/readme.img/js-beskrivelse-readme "JavaScript forklaret 1.")
-![JS beskrivelse.](/readme.img/js-beserivelse-readme-2 "JavaScript forklaret 2.")
+![JS beskrivelse.](/readme.img/js-beskrivelse-readme.png "JavaScript forklaret 1.")
+![JS beskrivelse.](/readme.img/js-beskrivelse-readme-2.png "JavaScript forklaret 2.")
 
 
