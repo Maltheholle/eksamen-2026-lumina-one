@@ -34,6 +34,7 @@ body{
     font-family: var(--Body-font);
     color: var(--charcoal-black);
     background-color: var(--Off-white);
+    overflow-x:hidden;
 }
 
 .hero{
@@ -1349,4 +1350,5 @@ margin-right: -10px;
 
 html{
     scroll-behavior:smooth;
+    overflow-x:hidden;
 }
