@@ -1,9 +1,3 @@
-*{
-    box-sizing:border-box;
-    
-    outline:1px solid red;
-
-}
 
 /* Farve-Variabler */
 :root {
@@ -34,7 +28,6 @@ body{
     font-family: var(--Body-font);
     color: var(--charcoal-black);
     background-color: var(--Off-white);
-    overflow-x:hidden;
 }
 
 .hero{
@@ -52,14 +45,13 @@ body{
     display:flex;
     align-items:center;
     gap: 130px;
-    padding:5px 50px;
+    padding:10px 90px;
     background:var(--eggshell);
     box-shadow: 0 4px 8px rgba(58, 56, 56, 0.1);
     border-radius: 5px;
     position: fixed;
     width: 100%;
     z-index: 10;
-    box-sizing: border-box;
 }
 
 
@@ -1350,5 +1342,4 @@ margin-right: -10px;
 
 html{
     scroll-behavior:smooth;
-    overflow-x:hidden;
 }
