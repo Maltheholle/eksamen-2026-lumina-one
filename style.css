@@ -484,7 +484,7 @@ section hr{
 
 #second-line{
     font-size:18px;
-    font-weight:500;
+    font-weight:400;
     letter-spacing:0.04em;
     line-height:35px;
     color:var(--charcoal-black);
@@ -982,13 +982,13 @@ margin-right: -10px;
 .proud-service{
     font-family:var(--Body-font);
     font-size:16px;
-    font-weight:500;
+    font-weight: 400;
     line-height: 30px;
     color:var(--charcoal-black);
-    letter-spacing:2px;
+    letter-spacing:1px;
     max-width:700px;
     margin:0;
-    
+
 }
 
 .trustpilot-rating{
