@@ -462,7 +462,7 @@ section hr{
 .color-text h3{
     font-family:var(--Body-font);
     font-size:16px;
-    font-weight:550;
+    font-weight:500;
     letter-spacing: 0.02em;
     color:var(--Rose-icon-color);
     margin-bottom: 25px;
@@ -484,7 +484,7 @@ section hr{
 
 #second-line{
     font-size:18px;
-    font-weight:550;
+    font-weight:500;
     letter-spacing:0.04em;
     line-height:35px;
     color:var(--charcoal-black);
@@ -600,7 +600,7 @@ section hr{
     margin:0 0 40px;
     font-size:18px;
     letter-spacing:2px;
-    font-weight:550;
+    font-weight:500;
 }
 
 .specs-speaker{
@@ -958,7 +958,7 @@ margin-right: -10px;
 .trusted-by{
     font-family:var(--Body-font);
     font-size:17px;
-    font-weight:550;
+    font-weight:500;
     letter-spacing:2px;
     color:var(--Dusty-rose-darker);
 
@@ -982,7 +982,7 @@ margin-right: -10px;
 .proud-service{
     font-family:var(--Body-font);
     font-size:16px;
-    font-weight:550;
+    font-weight:500;
     line-height: 30px;
     color:var(--charcoal-black);
     letter-spacing:2px;
@@ -1155,7 +1155,7 @@ margin-right: -10px;
     margin-bottom:20px;
     color:var(--Rose-icon-color);
     font-size:25px;
-    font-weight:550;
+    font-weight:500;
     letter-spacing:2px;
 }
 
@@ -1215,7 +1215,7 @@ margin-right: -10px;
 .newsletter article{
     margin-bottom:15px;
     font-size:18px;
-    font-weight:550;
+    font-weight:500;
     letter-spacing:2px;
     color:var(--Rose-icon-color);
 }
@@ -1259,7 +1259,7 @@ margin-right: -10px;
     opacity:1;
     font-family:var(--Body-font);
     font-size:16px;
-    font-weight:550;
+    font-weight:500;
     letter-spacing:1px;
     cursor:pointer;
 }
@@ -1309,7 +1309,7 @@ margin-right: -10px;
 
 .footer-benefits .value-point{
     font-size:15px;
-    font-weight:550;
+    font-weight:500;
     letter-spacing:0.5px;
 }
 
