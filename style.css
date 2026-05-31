@@ -153,7 +153,7 @@ font-size: 70px;
 
 
 
-#hero-cta{
+.hero-cta{
 display: flex;
 background-color: var(--beige-cream);
 opacity: 90%;
@@ -173,11 +173,15 @@ cursor: pointer;
 transition: all 0.3s ease;
 }
 
-#hero-cta:hover{
+.hero-cta:hover{
     background-color: var(--Rose-icon-color);
     color: white;
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(0,0,0,0.12);
+}
+.hero a {
+    text-decoration:none;
+    color:inherit;
 }
 
 #arrow-hero{
