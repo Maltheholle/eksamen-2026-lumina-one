@@ -2,7 +2,6 @@
 
 
 
-const circles = document.querySelectorAll(".circle");
 const speaker = document.querySelector(".color-profile");
 
 const title = document.querySelector("#color-description-headline");
@@ -23,42 +22,48 @@ ctaButton.addEventListener("mouseleave", () => {
 
 function changeSpeakerImage(newImage){
     speaker.classList.add("fade-out");
-
+    
     setTimeout(() => {
         speaker.src = newImage;
         speaker.classList.remove("fade-out");
     }, 320);
 }
 
+
+// Definerer variabel “circles” - som gælder for class = “circle” i html 
+const circles = document.querySelectorAll(".circle");
+
+// Gennemgår alle class = “circle” inde i html’en
 circles.forEach(circle => {
 
+// circle.addEventListener(“click” etc.) Lytter efter click på klassen “circle” i html
     circle.addEventListener("click", () => {
 
-
+// Gemmengår alle klasserne “circle” og fjerner “active”
         circles.forEach(c => {
             c.classList.remove("active");
         });
-
-
+// Tilføjer “active” til den klikkede "circle" / Snakker sammen med CSS'en
         circle.classList.add("active");
 
-
-
+// if - tjekker om "circle" indeholder "sage"
         if(circle.classList.contains("sage")){
-
+// Hvis den gør, ændres billedet til "sage-green-profile-pic.svg"
         changeSpeakerImage("body.img/sage-green-profile-pic.svg");
 
+// Ligeledes ændres teksten, tekstfarven, knapfarven, border, og icon.
         title.textContent = "SAGE GREEN";
         title.style.color = "var(--sage-green)";
         ctaButton.style.color = "var(--sage-green)";
         ctaButton.style.border = "2px solid var(--sage-green)";
         ctaIcon.src = "icons.img/shopping-bag-icon-sage.svg";
 
+// Her ændres tekstbeskrivelse inde i html'en vha. innerHTML.
         description.innerHTML =
         `Nice, natural and <br>
         minimalistic beauty.`;
-
         }
+// Dette gentages for hver farve - med forskellige data, men med else if, frem for if.
 
         else if(circle.classList.contains("lavender")){
 
@@ -81,7 +86,7 @@ circles.forEach(circle => {
             changeSpeakerImage("body.img/warm-taupe-profile-pic.svg");
 
 
-             title.textContent = "WARM TAUPE";
+            title.textContent = "WARM TAUPE";
             title.style.color = "var(--taupe)";
             ctaButton.style.color = "var(--taupe)";
             ctaButton.style.border = "2px solid var(--taupe)";
@@ -92,6 +97,7 @@ circles.forEach(circle => {
         timeless design.`;
         }
 
+        // Sørger for at hvis ingen af de andre vælges - så er det dusty rose der vises
         else{
 
             changeSpeakerImage("body.img/dusty-rose-profile-pic.svg");
