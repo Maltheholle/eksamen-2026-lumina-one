@@ -1,4 +1,3 @@
-
 /* Farve-Variabler */
 :root {
     --dusty-rose: #D8A9A6;
@@ -166,7 +165,7 @@ padding: 20px 12px;
 padding-left: 20px;
 border: none;
 color: var(--Lighter-charcoal);
-font-weight: 550;
+font-weight: 500;
 margin-left: 135px;
 margin-top: 80px;
 border-radius: 25px;
@@ -336,7 +335,7 @@ section hr{
 #underline{
     margin-top: 0;
     font-size: 20px;
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--charcoal-black);
     min-height: 100px;
@@ -534,7 +533,7 @@ section hr{
     color: var(--Rose-icon-color);
     opacity: 100%;
     background-color: transparent;
-    font-weight: 550;
+    font-weight: 500;
     font-size: 16px;
     transition: all 0.3s ease;
 }
@@ -678,7 +677,7 @@ margin-right: -10px;
     margin:0;
     font-size:12px;
     line-height:1.6;
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing: 0.02em;
     max-width: 260px;
 }
@@ -688,7 +687,7 @@ margin-right: -10px;
      margin:0;
     font-size:12px;
     line-height:1.6;
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing: 0.02em;
 }
 
@@ -790,7 +789,7 @@ margin-right: -10px;
     margin:0;
     color:var(--Dusty-rose-darker);
     font-size:18px;
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing:2px;
 }
 
@@ -800,7 +799,7 @@ margin-right: -10px;
     line-height:1.5;
     font-size:16px;
     font-family:var(--Body-font);
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing: 0.02em;
     color:var(--charcoal-black);
 }
@@ -813,7 +812,7 @@ margin-right: -10px;
     gap: 50px;
     width: fit-content;
     color: var(--Rose-icon-color);
-    font-weight: 550;
+    font-weight: 500;
     background-color: transparent;
     border: 2px solid var(--Rose-icon-color);
     cursor: pointer;
@@ -869,7 +868,7 @@ margin-right: -10px;
     font-family: var(--Body-font);
     font-size: 20px;
     color: var(--charcoal-black);
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing: 0.06em;
     text-align: center;
     margin-bottom: 70px;
@@ -926,7 +925,7 @@ margin-right: -10px;
     gap: 20px;
     background-color: transparent;
     font-family: var(--Body-font);
-    font-weight: 550;
+    font-weight: 500;
     color: var(--Rose-icon-color);
     border: 2px solid var(--Rose-icon-color);
     cursor: pointer;
@@ -1000,7 +999,7 @@ margin-right: -10px;
 .trustpilot-link{
     font-family:var(--Body-font);
     font-size:16px;
-    font-weight: 550;
+    font-weight: 500;
     color:var(--Dusty-rose-darker);
     margin-top:40px;
     padding-top: 80px;
