@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+
 /* Farve-Variabler */
 :root {
     --dusty-rose: #D8A9A6;
@@ -44,13 +48,14 @@ body{
     display:flex;
     align-items:center;
     gap: 130px;
-    padding:10px 90px;
+    padding:5px 50px;
     background:var(--eggshell);
     box-shadow: 0 4px 8px rgba(58, 56, 56, 0.1);
     border-radius: 5px;
     position: fixed;
     width: 100%;
     z-index: 10;
+    box-sizing: border-box;
 }
 
 
